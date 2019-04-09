@@ -38,13 +38,9 @@ footer {
 	margin: 0 0 2em;
 }
 
-section, p, details {
+section, p {
 	margin: 1em 0 0;
 	padding: 0 1em 1em;
-}
-
-section section {
-	padding: 0;
 }
 
 a {
@@ -57,5 +53,5 @@ ol, ul {
 }
 
 img {
-	padding: 0 0 0 1ex;
+	margin: 0 1ex 0 0;
 }

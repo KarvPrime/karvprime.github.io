@@ -26,12 +26,12 @@ h1, h2, h3 {
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(200, 250, 100, 0.1), 0 0 10px rgba(200, 250, 100, 0.1);
 }
 
-h2, h3 {
-	margin: 1em 0 0;
-}
-
 header {
 	margin: 2em 0 0;
+}
+
+main {
+	margin: 1em 0 1em;
 }
 
 footer {
@@ -45,7 +45,7 @@ section, p {
 
 a {
 	color: #6bf;
-	text-shadow: 0 0 5px rgba(150, 200, 255, 0.5);
+	text-shadow: 0 0 5px rgba(150, 200, 250, 0.5);
 }
 
 ol, ul {

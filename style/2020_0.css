@@ -1,0 +1,76 @@
+:root {
+  --background: #222;
+  --text: #eee;
+  --green: #3f1;
+  --greenShadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(200, 250, 100, 0.1), 0 0 10px rgba(200, 250, 100, 0.1);
+  --blue: #6bf;
+  --blueShadow: 0 0 5px rgba(150, 200, 250, 0.5);
+}
+
+html, body {
+  height: 100%;
+}
+
+body, h1, h2, h3, p, ol, ul, img {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 1ex;
+  background: var(--background);
+  font-family: "Lucida Console", Terminal, monospace;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+  color: var(--green);
+  text-shadow: var(--greenShadow);
+}
+
+h1, h3 {
+  margin: 0 0 0.5em;
+}
+
+h2 {
+  margin: 1em 0 0.5em;
+}
+
+header {
+  margin: 2em 0 0;
+}
+
+main {
+  margin: 1em 0 1em;
+}
+
+footer {
+  margin: 0 0 2em;
+}
+
+section, p {
+  padding: 1em;
+}
+
+section p {
+  padding: 0 0 0 1em;
+}
+
+a {
+  color: var(--blue);
+  text-shadow: var(--blueShadow);
+}
+
+ol, ul {
+  padding: 0 2em;
+}
+
+img {
+  margin: 0 1ex 0 0;
+}

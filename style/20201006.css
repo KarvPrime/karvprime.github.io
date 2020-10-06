@@ -71,6 +71,28 @@ a {
 	text-shadow: var(--blueShadow);
 }
 
-img {
-	margin: 0 1ex 0 0;
+a.social {
+	display: block;
+	width: 10em;
+	height: 41px;
+	margin: 5px 0;
+	padding: 0 50px;
+	vertical-align: center;
+	line-height: 41px;
+	background: var(--background) no-repeat left;
+}
+
+a#GitHub {
+	background-image: url("../images/GitHub.png");
+	background-size: 41px 41px;
+}
+
+a#Twitter {
+	background-image: url("../images/Twitter.svg");
+	background-size: 41px 41px;
+}
+
+a#LinkedIn {
+	background-image: url("../images/LinkedIn.png");
+	background-size: 50px 41px;
 }

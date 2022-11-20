@@ -72,8 +72,8 @@ a {
 }
 
 a.social {
-	display: block;
-	width: 10em;
+	display: inline-block;
+	width: 6em;
 	height: 41px;
 	margin: 5px 0;
 	padding: 0 50px;
